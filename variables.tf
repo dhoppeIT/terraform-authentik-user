@@ -46,6 +46,12 @@ variable "path" {
   description = "The path where the user will be created"
 }
 
+variable "roles" {
+  type        = list(string)
+  default     = null
+  description = "List of roles to apply to this user"
+}
+
 variable "type" {
   type        = string
   default     = "internal"

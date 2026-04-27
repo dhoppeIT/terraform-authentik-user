@@ -8,5 +8,6 @@ resource "authentik_user" "this" {
   name       = var.name
   password   = var.password
   path       = var.path
+  roles      = var.roles
   type       = var.type
 }

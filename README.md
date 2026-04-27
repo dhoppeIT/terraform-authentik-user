@@ -34,15 +34,15 @@ module "authentik_user" {
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_authentik"></a> [authentik](#requirement\_authentik) | ~> 2025.0 |
+| <a name="requirement_authentik"></a> [authentik](#requirement\_authentik) | ~> 2026.0 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
-| <a name="provider_authentik"></a> [authentik](#provider\_authentik) | ~> 2025.0 |
+| ---- | ------- |
+| <a name="provider_authentik"></a> [authentik](#provider\_authentik) | ~> 2026.0 |
 
 ## Modules
 
@@ -51,13 +51,13 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [authentik_user.this](https://registry.terraform.io/providers/goauthentik/authentik/latest/docs/resources/user) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_attributes"></a> [attributes](#input\_attributes) | Custom attributes definition for the user | `string` | `"{}"` | no |
 | <a name="input_email"></a> [email](#input\_email) | The email address of the user | `string` | `null` | no |
 | <a name="input_groups"></a> [groups](#input\_groups) | List of groups to apply to this user | `list(string)` | `null` | no |
@@ -65,13 +65,14 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | The display name of the user | `string` | `""` | no |
 | <a name="input_password"></a> [password](#input\_password) | The password of the user | `string` | `null` | no |
 | <a name="input_path"></a> [path](#input\_path) | The path where the user will be created | `string` | `"users"` | no |
+| <a name="input_roles"></a> [roles](#input\_roles) | List of roles to apply to this user | `list(string)` | `null` | no |
 | <a name="input_type"></a> [type](#input\_type) | The type the user will be created as | `string` | `"internal"` | no |
 | <a name="input_username"></a> [username](#input\_username) | Name of the user | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource |
 <!-- END_TF_DOCS -->
 
