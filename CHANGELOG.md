@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://gitlab.com/terraform-child-modules-48151/terraform-authentik-user/compare/v1.1.0...v1.2.0) (2026-04-27)
+
+### Features
+
+* **terraform:** Add support for Authentik 2026.x ([c30c4ef](https://gitlab.com/terraform-child-modules-48151/terraform-authentik-user/commit/c30c4ef72c313133e56327d39007c30eee4edc38))
+
 ## [1.1.0](https://gitlab.com/terraform-child-modules-48151/terraform-authentik-user/compare/v1.0.0...v1.1.0) (2025-05-20)
 
 ### Features
